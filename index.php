@@ -39,7 +39,7 @@
                         
                         <i ng-click="sortName();" ng-class="{'active': settings.sort == 'name', 'fa-sort-alpha-asc': !settings.reverse || settings.sort != 'name', 'fa-sort-alpha-desc':settings.reverse && settings.sort == 'name' }" class="fa a-z"></i>
                         <i ng-click="sortTime();" ng-class="{'active': settings.sort == 'updated_at' }" class="fa fa-clock-o sort-time"></i>
-                        <i ng-click="sortWatchers();" ng-class="{'active': settings.sort == 'stargazers_count', 'fa-star': !settings.reverse || settings.sort != 'watchers_count', 'fa-star-o':settings.reverse && settings.sort == 'stargazers_count' }" class="fa"></i>
+                        <i ng-click="sortWatchers();" ng-class="{'active': settings.sort == 'stargazers_count', 'fa-star': settings.reverse || settings.sort != 'watchers_count', 'fa-star-o': !settings.reverse && settings.sort == 'stargazers_count' }" class="fa"></i>
                     </div>
                 </div>
                 
