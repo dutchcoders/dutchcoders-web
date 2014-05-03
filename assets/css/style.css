@@ -105,6 +105,11 @@ a:hover{
 }
 
 @media(max-width: 768px){
+    
+    .view-container{
+        right: 225px;
+    }
+    
     .view-container .inner i{
         padding: 16px 1px;
         font-size: 12px;
