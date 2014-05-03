@@ -106,7 +106,8 @@ a:hover{
 
 @media(max-width: 768px){
     .view-container .inner i{
-        padding: 15px 2px;
+        padding: 16px 1px;
+        font-size: 12px;
     }
 }
 .search-container{
